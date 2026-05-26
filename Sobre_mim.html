@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Diego Marques de Lima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--Sobre Mim -->
+        <section id="sobre">
+            <h1>Diego Marques de Lima</h1>
+            <p>Sou estudante do 2º período de Análise e Desenvolvimento de Sistemas, com foco em engenharia de software Back-end. Minha base técnica concentra-se na linguagem Python, no framework FastAPI e na forte aplicação de princípios de Programação Orientada a Objetos. </p>
+            <p>Utilizo o PyCharm como meu ambiente principal de desenvolvimento e o Obsidian para estruturar minha documentação e rotina de estudos. Tenho também um grande interesse pela lógica de desenvolvimento de jogos e planejo explorar o ecossistema Linux no futuro.</p>
+        </section>
+
+        <!--Formação -->
+        <section id="formacao">
+            <h2>Formação</h2>
+            <ul>
+                <li><strong>Graduação:</strong> Análise e Desenvolvimento de Sistemas - UNINTER (Em andamento).</li>
+                <li><strong>Conhecimentos Técnicos:</strong> Estruturação de APIs RESTful, Modelagem BPMN, Manutenção de Hardware, Redes e Suporte de Software.</li>
+                <li><strong>Ferramentas:</strong> PyCharm, Obsidian (para estruturação de estudos técnicos) e Git/GitHub.</li>
+            </ul>
+        </section>
+
+        <!--Portfólio -->
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <div class="projetos-grid">
+                <div class="projeto">
+                    <h3>estoque-fastapi</h3>
+                    <p>Aplicação back-end desenvolvida em FastAPI para o gerenciamento e controle de inventário de produtos.</p>
+                </div>
+                <div class="projeto">
+                    <h3>sistema-bancario-cli</h3>
+                    <p>Sistema bancário construído via interface de linha de comando (CLI) em Python, aplicando lógica robusta de negócios e POO.</p>
+                </div>
+                <div class="projeto">
+                    <h3>Automação de Arquivos (os/shutil)</h3>
+                    <p>Script em Python desenvolvido para a organização automatizada de arquivos baseada em suas extensões de formato.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Contato -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <!-- Formulário para simulação -->
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@dominio.com">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..."></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Diego Marques de Lima. Desenvolvido para a Atividade Prática de Fundamentos da Programação Web.</p>
+    </footer>
+
+    <!--importar js-->>
+    <script src="script.js"></script>
+</body>
+</html>
