@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Barra de Navegação */
+/* barra de navegação */
 header {
     background-color: #2c3e50;
     position: fixed; /* Fixa o menu no topo */
@@ -125,4 +125,56 @@ footer {
     background-color: #2c3e50;
     color: white;
     font-size: 0.9em;
+}
+
+/* botão de tema */
+.botao-tema {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.botao-tema:hover {
+    background: white;
+    color: #2c3e50;
+}
+
+/* tema escuro(dark)*/
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.dark-theme header, 
+body.dark-theme footer {
+    background-color: #111111;
+}
+
+body.dark-theme h1, 
+body.dark-theme h2, 
+body.dark-theme h3 {
+    color: #5dade2; 
+}
+
+body.dark-theme section {
+    border-bottom: 1px solid #333;
+}
+
+body.dark-theme .projeto, 
+body.dark-theme form {
+    background: #2a2a2a;
+    border-left-color: #5dade2;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-theme form input, 
+body.dark-theme form textarea {
+    background: #333;
+    color: white;
+    border: 1px solid #555;
 }
